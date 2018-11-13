@@ -1,0 +1,11 @@
+# encoding=UTF-8
+print '{:<20}=='.format('史記')
+print '{:_<20}=='.format('史記')
+print '{:*>20}=='.format('史記')
+print '{:!^20}=='.format('史記')
+print '%s' % ('這個字串非常長, The string is super super super long')
+print '%.12s' % ('這個字串非常長, The string is super super super long')
+print '%.12s' % (u'這個字串非常長, The string is super super super long')
+print '{:.12s}'.format('這個字串非常長, The string is super super super long')
+print u'{:.12s}'.format(u'這個字串非常長, The string is super super super long')
+print u'{:.{}s}'.format(u'這個字串非常長, The string is super super super long', 9)
